@@ -1,4 +1,4 @@
-const histories = document.getElementById("histories");
+ const histories = document.getElementById("histories");
 
 function addHistory(questionText, timeTaken, errorCount) {
   const newRow = document.createElement("div");
