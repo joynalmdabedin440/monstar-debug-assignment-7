@@ -201,6 +201,8 @@ button {
   top: 0;
   
 }
+
+/*------ responsive section for small device -----*/
 @media only screen and (max-width: 668px) {
   .box-container {
     padding: 0 20px;
@@ -213,14 +215,11 @@ button {
 
   }
 
-
   #histories {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
-
 
   #question {
     height: 100%;
@@ -228,6 +227,8 @@ button {
   }
 }
 
+
+/* -----------responsive section for medium device------------ */
 @media only screen and (min-width:669px) and (max-width: 1080px) {
   #histories {
     display: grid;
@@ -235,6 +236,8 @@ button {
     gap: 20px;
   }
 }
+
+/* -------------responsive section for large device=-------------- */
 @media only screen and (min-width:1081px) {
   #histories {
     display: grid;
